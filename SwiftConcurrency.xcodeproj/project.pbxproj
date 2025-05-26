@@ -6,17 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B92F7BA22DE49D6C00DA1FAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B92F7B9E2DE49D6C00DA1FAD /* Assets.xcassets */; };
+		B92F7BA32DE49D6C00DA1FAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92F7B9F2DE49D6C00DA1FAD /* ContentView.swift */; };
+		B92F7BA42DE49D6C00DA1FAD /* SwiftConcurrencyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92F7BA02DE49D6C00DA1FAD /* SwiftConcurrencyApp.swift */; };
+		B92F7BA72DE49D8700DA1FAD /* DoCatchTryThrowsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92F7BA62DE49D8400DA1FAD /* DoCatchTryThrowsBootcamp.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		B92F7B8D2DE49D3000DA1FAD /* SwiftConcurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftConcurrency.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B92F7B9E2DE49D6C00DA1FAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B92F7B9F2DE49D6C00DA1FAD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B92F7BA02DE49D6C00DA1FAD /* SwiftConcurrencyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrencyApp.swift; sourceTree = "<group>"; };
+		B92F7BA62DE49D8400DA1FAD /* DoCatchTryThrowsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoCatchTryThrowsBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		B92F7B8F2DE49D3000DA1FAD /* SwiftConcurrency */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SwiftConcurrency;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B92F7B8A2DE49D3000DA1FAD /* Frameworks */ = {
@@ -32,7 +35,7 @@
 		B92F7B842DE49D3000DA1FAD = {
 			isa = PBXGroup;
 			children = (
-				B92F7B8F2DE49D3000DA1FAD /* SwiftConcurrency */,
+				B92F7BA12DE49D6C00DA1FAD /* SwiftConcurrency */,
 				B92F7B8E2DE49D3000DA1FAD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +46,25 @@
 				B92F7B8D2DE49D3000DA1FAD /* SwiftConcurrency.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B92F7BA12DE49D6C00DA1FAD /* SwiftConcurrency */ = {
+			isa = PBXGroup;
+			children = (
+				B92F7BA52DE49D6E00DA1FAD /* DoCatchTryThrowsBootcamp */,
+				B92F7B9E2DE49D6C00DA1FAD /* Assets.xcassets */,
+				B92F7B9F2DE49D6C00DA1FAD /* ContentView.swift */,
+				B92F7BA02DE49D6C00DA1FAD /* SwiftConcurrencyApp.swift */,
+			);
+			path = SwiftConcurrency;
+			sourceTree = "<group>";
+		};
+		B92F7BA52DE49D6E00DA1FAD /* DoCatchTryThrowsBootcamp */ = {
+			isa = PBXGroup;
+			children = (
+				B92F7BA62DE49D8400DA1FAD /* DoCatchTryThrowsBootcamp.swift */,
+			);
+			path = DoCatchTryThrowsBootcamp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +81,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				B92F7B8F2DE49D3000DA1FAD /* SwiftConcurrency */,
 			);
 			name = SwiftConcurrency;
 			packageProductDependencies = (
@@ -109,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B92F7BA22DE49D6C00DA1FAD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +139,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B92F7BA72DE49D8700DA1FAD /* DoCatchTryThrowsBootcamp.swift in Sources */,
+				B92F7BA32DE49D6C00DA1FAD /* ContentView.swift in Sources */,
+				B92F7BA42DE49D6C00DA1FAD /* SwiftConcurrencyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
