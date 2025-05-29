@@ -13,6 +13,7 @@
 		B92F7BA32DE49D6C00DA1FAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92F7B9F2DE49D6C00DA1FAD /* ContentView.swift */; };
 		B92F7BA42DE49D6C00DA1FAD /* SwiftConcurrencyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92F7BA02DE49D6C00DA1FAD /* SwiftConcurrencyApp.swift */; };
 		B92F7BA72DE49D8700DA1FAD /* DoCatchTryThrowsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92F7BA62DE49D8400DA1FAD /* DoCatchTryThrowsBootcamp.swift */; };
+		B9726AB42DE7DD9E00551A13 /* TaskBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9726AB32DE7DD9300551A13 /* TaskBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		B92F7B9F2DE49D6C00DA1FAD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B92F7BA02DE49D6C00DA1FAD /* SwiftConcurrencyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrencyApp.swift; sourceTree = "<group>"; };
 		B92F7BA62DE49D8400DA1FAD /* DoCatchTryThrowsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoCatchTryThrowsBootcamp.swift; sourceTree = "<group>"; };
+		B9726AB32DE7DD9300551A13 /* TaskBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 		B92F7BA12DE49D6C00DA1FAD /* SwiftConcurrency */ = {
 			isa = PBXGroup;
 			children = (
+				B9726AB22DE7DD7D00551A13 /* How to use Task and .task in Swift */,
 				B91616682DE6D859004FFCC2 /* How to use async  await keywords in Swift */,
 				B91616642DE6096E004FFCC2 /* Download images with Async,Await, @escaping, and Combine */,
 				B92F7BA52DE49D6E00DA1FAD /* DoCatchTryThrowsBootcamp */,
@@ -87,6 +90,14 @@
 				B92F7BA62DE49D8400DA1FAD /* DoCatchTryThrowsBootcamp.swift */,
 			);
 			path = DoCatchTryThrowsBootcamp;
+			sourceTree = "<group>";
+		};
+		B9726AB22DE7DD7D00551A13 /* How to use Task and .task in Swift */ = {
+			isa = PBXGroup;
+			children = (
+				B9726AB32DE7DD9300551A13 /* TaskBootcamp.swift */,
+			);
+			path = "How to use Task and .task in Swift";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +175,7 @@
 				B91616672DE6099E004FFCC2 /* diwaa.swift in Sources */,
 				B92F7BA72DE49D8700DA1FAD /* DoCatchTryThrowsBootcamp.swift in Sources */,
 				B916166A2DE6D874004FFCC2 /* asyncAwait.swift in Sources */,
+				B9726AB42DE7DD9E00551A13 /* TaskBootcamp.swift in Sources */,
 				B92F7BA32DE49D6C00DA1FAD /* ContentView.swift in Sources */,
 				B92F7BA42DE49D6C00DA1FAD /* SwiftConcurrencyApp.swift in Sources */,
 			);
