@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B91616672DE6099E004FFCC2 /* diwaa.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91616662DE60994004FFCC2 /* diwaa.swift */; };
 		B916166A2DE6D874004FFCC2 /* asyncAwait.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91616692DE6D867004FFCC2 /* asyncAwait.swift */; };
+		B92E27DC2DEA084400C22323 /* AsyncLetBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92E27DB2DEA083B00C22323 /* AsyncLetBootcamp.swift */; };
 		B92F7BA22DE49D6C00DA1FAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B92F7B9E2DE49D6C00DA1FAD /* Assets.xcassets */; };
 		B92F7BA32DE49D6C00DA1FAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92F7B9F2DE49D6C00DA1FAD /* ContentView.swift */; };
 		B92F7BA42DE49D6C00DA1FAD /* SwiftConcurrencyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92F7BA02DE49D6C00DA1FAD /* SwiftConcurrencyApp.swift */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		B91616662DE60994004FFCC2 /* diwaa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diwaa.swift; sourceTree = "<group>"; };
 		B91616692DE6D867004FFCC2 /* asyncAwait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = asyncAwait.swift; sourceTree = "<group>"; };
+		B92E27DB2DEA083B00C22323 /* AsyncLetBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLetBootcamp.swift; sourceTree = "<group>"; };
 		B92F7B8D2DE49D3000DA1FAD /* SwiftConcurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftConcurrency.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B92F7B9E2DE49D6C00DA1FAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B92F7B9F2DE49D6C00DA1FAD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +56,14 @@
 			path = "How to use async  await keywords in Swift";
 			sourceTree = "<group>";
 		};
+		B92E27DA2DEA083100C22323 /* How to use Async Let to perform concurrent methods in Swift */ = {
+			isa = PBXGroup;
+			children = (
+				B92E27DB2DEA083B00C22323 /* AsyncLetBootcamp.swift */,
+			);
+			path = "How to use Async Let to perform concurrent methods in Swift";
+			sourceTree = "<group>";
+		};
 		B92F7B842DE49D3000DA1FAD = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +83,7 @@
 		B92F7BA12DE49D6C00DA1FAD /* SwiftConcurrency */ = {
 			isa = PBXGroup;
 			children = (
+				B92E27DA2DEA083100C22323 /* How to use Async Let to perform concurrent methods in Swift */,
 				B9726AB22DE7DD7D00551A13 /* How to use Task and .task in Swift */,
 				B91616682DE6D859004FFCC2 /* How to use async  await keywords in Swift */,
 				B91616642DE6096E004FFCC2 /* Download images with Async,Await, @escaping, and Combine */,
@@ -178,6 +189,7 @@
 				B9726AB42DE7DD9E00551A13 /* TaskBootcamp.swift in Sources */,
 				B92F7BA32DE49D6C00DA1FAD /* ContentView.swift in Sources */,
 				B92F7BA42DE49D6C00DA1FAD /* SwiftConcurrencyApp.swift in Sources */,
+				B92E27DC2DEA084400C22323 /* AsyncLetBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
